@@ -7,8 +7,8 @@ Oppo device's bootloader uses board-id to detect which dtb will be passed to the
 
 # How to compile 
 
-` gcc path/to/dtbtool.c -o dtbtool `
+`gcc path/to/dtbtool.c -o dtbtool`
 
 # How to generate master dtb 
 
-` ./dtbtool -s 2048 -o dt.img  path/to/dtbs `
+`./dtbtool -s 2048 -o dt.img  path/to/dtbs`
